@@ -28,11 +28,11 @@ from sugar3.activity.widgets import StopButton
 from sugar3.activity.widgets import ActivityToolbarButton
 
 
-class HelloWorldActivity(activity.Activity):
-    """HelloWorldActivity class as specified in activity.info"""
+class TestActivity(activity.Activity):
+    """TestActivity class as specified in activity.info"""
 
     def __init__(self, handle):
-        """Set up the HelloWorld activity."""
+        """Set up the Test activity."""
         activity.Activity.__init__(self, handle)
 
         # we do not have collaboration features
@@ -60,6 +60,6 @@ class HelloWorldActivity(activity.Activity):
         toolbar_box.show()
 
         # label with the text, make the string translatable
-        label = Gtk.Label(_("Hello World!"))
+        label = Gtk.Label(_("Test Activity by zen0 for RPi"))
         self.set_canvas(label)
         label.show()
