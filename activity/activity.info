@@ -1,7 +1,7 @@
 [Activity]
 name = TestActivity
 activity_version = 1
-bundle_id = org.zen0.TestActivity
+bundle_id = org.genx.TestActivity
 exec = sugar-activity3 activity.TestActivity
 icon = activity-testactivity
 license = GPLv2+
